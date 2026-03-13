@@ -1,0 +1,38 @@
+{
+  "name": "@oahl/adapter-android",
+  "version": "0.1.0",
+  "description": "OAHL adapter for Android devices — exposes screen, input, app management, file transfer, system info, and logcat over ADB.",
+  "main": "dist/index.js",
+  "private": false,
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "oahl",
+    "android",
+    "adb",
+    "hardware-adapter",
+    "ai-agent",
+    "mobile"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@oahl/core": "^0.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "@oahl/core": "^0.1.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
