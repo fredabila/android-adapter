@@ -1,12 +1,13 @@
 {
   "name": "@oahl/adapter-android",
-  "version": "0.1.4",
+  "version": "0.1.8",
   "description": "OAHL adapter for Android devices — exposes screen, input, app management, file transfer, system info, and logcat over ADB.",
   "main": "dist/index.js",
   "private": false,
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "oahl-manifest.json"
   ],
   "scripts": {
     "build": "tsc",
